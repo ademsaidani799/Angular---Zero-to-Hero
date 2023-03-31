@@ -30,7 +30,7 @@ export class ChildComponent
   @ViewChild('childContent', {static: true}) childContent: any;
 
   constructor() {
-    console.log('Child Constructor called');
+    console.log('child Constructor called');
   }
 
   ngOnInit(): void {
